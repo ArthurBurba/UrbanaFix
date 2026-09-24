@@ -6,34 +6,38 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 </p>
 
 ---
 
-## 🇧🇷 Português
+## 📝 About the Project
 
-### 📝 Sobre o Projeto
-O **UrbanaFix** é uma plataforma web desenvolvida para conectar cidadãos que desejam relatar e solucionar problemas urbanos. A ideia principal do projeto é permitir o registro e o acompanhamento de ocorrências da cidade (como buracos na pista, iluminação pública deficiente, acúmulo de lixo, etc.), promovendo o engajamento comunitário e a melhoria urbana.
+**UrbanaFix** is a web platform designed to connect citizens who want to report and help resolve urban issues. The main idea behind the project is to allow users to register and track city problems (such as potholes, street light failures, waste accumulation, etc.), fostering community engagement and local improvements.
 
----
-
-### ✨ Funcionalidades Principais
-- 🔐 **Autenticação:** Cadastro e login de usuários com suporte a sessões.
-- 📢 **Publicação:** Criação e registro de denúncias/ocorrências urbanas.
-- 📰 **Feed Comunitário:** Visualização centralizada de relatos enviados pelos usuários.
-- 💬 **Interação:** Sistema de curtidas e comentários entre os usuários.
-- 🗄️ **Banco de Dados:** Armazenamento relacional e gerenciamento com MySQL.
+> ℹ️ **Architecture Note:** The **Web Application** is the main platform of this project. The included **Python script** serves solely as an auxiliary desktop interface to control and manage the database.
 
 ---
 
-### 📌 Nota do Desenvolvedor
-> **Importante:** Este foi o meu **primeiro projeto web completo**. Por ser um projeto de aprendizado inicial, **ele não está hospedado na internet nem em um servidor em nuvem ativo**. Toda a execução e os testes foram realizados em um ambiente local de desenvolvimento (como XAMPP / Localhost).
+## ✨ Main Features
+
+- 🔐 **Authentication:** User registration and login system with session support.
+- 📢 **Posting:** Creation and publishing of urban issue reports.
+- 📰 **Community Feed:** Centralized feed displaying reports submitted by the community.
+- 💬 **Interactions:** Like and comment system for user interaction.
+- 🗄️ **Database Management:** Relational data storage using MySQL, featuring an auxiliary Python tool for database administration.
 
 ---
 
-### 💻 Como Executar o Projeto Localmente
-1. **Instale um Servidor Local:** Baixe e instale o [XAMPP](https://www.apachefriends.org/pt_br/index.html) ou [WAMP](https://www.wampserver.com/).
-2. **No painel do XXAMP, no navegador, abra o urbanafix.sql (final technical project TCC\urbanafix_main_(web)\database)
-3. **Clone o Repositório:**
-   ```bash
-   git clone [https://github.com/ArthurBurba/UrbanaFix.git](https://github.com/ArthurBurba/UrbanaFix.git)
+## 📌 Developer's Note
+
+> **Important:** This was my **first full web project**. As an initial learning project, **it is currently not hosted live on the internet or on an active cloud server**. All development and testing were carried out in a local environment (such as XAMPP / Localhost).
+
+---
+
+## 💻 How to Run the Project Locally
+
+1. **Install a Local Web Server:** Download and install [XAMPP](https://www.apachefriends.org/index.html) or [WAMP](https://www.wampserver.com/).
+2. **Import the Database:** In the XAMPP control panel, open **phpMyAdmin** in your browser and import the `urbanafix.sql` file located at:
+   ```text
+   final technical project TCC/urbanafix_main_(web)/database/urbanafix.sql
