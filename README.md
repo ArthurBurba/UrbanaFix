@@ -33,6 +33,7 @@ O **UrbanaFix** é uma plataforma web desenvolvida para conectar cidadãos que d
 
 ### 💻 Como Executar o Projeto Localmente
 1. **Instale um Servidor Local:** Baixe e instale o [XAMPP](https://www.apachefriends.org/pt_br/index.html) ou [WAMP](https://www.wampserver.com/).
-2. **Clone o Repositório:**
+2. **No painel do XXAMP, no navegador, abra o urbanafix.sql (final technical project TCC\urbanafix_main_(web)\database)
+3. **Clone o Repositório:**
    ```bash
    git clone [https://github.com/ArthurBurba/UrbanaFix.git](https://github.com/ArthurBurba/UrbanaFix.git)
