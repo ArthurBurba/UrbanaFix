@@ -37,7 +37,7 @@
 
 ## 💻 How to Run the Project Locally
 
-1. **Install a Local Web Server:** Download and install [XAMPP](https://www.apachefriends.org/index.html) or [WAMP](https://www.wampserver.com/).
+1. **Install a Local Web Server:** Download and install [XAMPP](https://www.apachefriends.org/index.html).
 2. **Import the Database:** In the XAMPP control panel, open **phpMyAdmin** in your browser and import the `urbanafix.sql` file located at:
    ```text
    final technical project TCC/urbanafix_main_(web)/database/urbanafix.sql
